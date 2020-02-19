@@ -100,7 +100,7 @@ AI Conference Deadlines：<https://aideadlin.es/?sub=ML,CV,NLP,RO,SP,DM>
   > - ConvNet as fixed feature extractor
   > - Fine-tuning the ConvNet：固定前几层的参数，只对最后几层进行 fine-tuning ...
   > - Pretrained models：使用整个 pre-trained 的 model 作为初始化，然后 fine-tuning 整个网络而不是某些层，但是这个的计算量是非常大的，就只相当于做了一个初始化。
-- [预训练模型Application - Keras中文文档](<https://keras-cn-twkun.readthedocs.io/other/application/>)
+- [预训练模型Application - Keras中文文档](<https://keras-cn-twkun.readthedocs.io/Other/application/>)
 
 **为什么预训练？**
 
@@ -159,11 +159,11 @@ AutoML 基本分以下几个方向：（——from：<https://zhuanlan.zhihu.com
 
 先学习掌握以下内容，包括 Python 基础、Anconada 安装等等：
 
-- [IDE之PyCharm的设置和Debug入门](./other/IDE之PyCharm的设置和Debug入门.md)
-- [Python基础入门笔记（一）](./other/Python/Python基础入门笔记（一）.md)
-- [Python基础入门笔记（二）](./other/Python/Python基础入门笔记（二）.md)
-- [Python内置库和函数使用及常见功能实现记录](./other/Python/Python内置库和函数使用及常见功能实现记录.md)
-- [一键安装所有第三方库](./other/Python/Python一键安装所有第三方库.md)
+- [IDE之PyCharm的设置和Debug入门](./Other/IDE之PyCharm的设置和Debug入门.md)
+- [Python基础入门笔记（一）](./Other/Python/Python基础入门笔记（一）.md)
+- [Python基础入门笔记（二）](./Other/Python/Python基础入门笔记（二）.md)
+- [Python内置库和函数使用及常见功能实现记录](./Other/Python/Python内置库和函数使用及常见功能实现记录.md)
+- [一键安装所有第三方库](./Other/Python/Python一键安装所有第三方库.md)
 - 关于 Python 的博文：
   - [PEP 8 Python编码风格指南概要](<https://juejin.im/post/58b129b32f301e006c035a62>)
   - [Python程序执行顺序](<https://blog.csdn.net/kunpengtingting/article/details/80178618>) 
@@ -172,19 +172,19 @@ AutoML 基本分以下几个方向：（——from：<https://zhuanlan.zhihu.com
   - [上传自己编写的包到PYPI](https://zhaoxuhui.top/blog/2017/12/17/%E4%B8%8A%E4%BC%A0%E8%87%AA%E5%B7%B1%E7%BC%96%E5%86%99%E7%9A%84%E5%8C%85%E5%88%B0PYPI.html)
   - [Python中的注解“@” - 简书](<https://www.jianshu.com/p/7a644520418b>)
   - [Python--参数注解](<https://blog.csdn.net/weixin_41869526/article/details/80021061>)
-- [Anaconda的介绍、安装和环境管理](./other/Anaconda的介绍、安装和环境管理.md)
-  - [conda和pip常用命令速查.md](./other/conda和pip常用命令速查.md)
+- [Anaconda的介绍、安装和环境管理](./Other/Anaconda的介绍、安装和环境管理.md)
+  - [conda和pip常用命令速查.md](./Other/conda和pip常用命令速查.md)
 - [python包管理工具：Conda和pip比较](<https://china-testing.github.io/conda_pip_compare.html>)  |  [Ubuntu下python选择pip install还是conda install更加合适？ - 知乎](<https://www.zhihu.com/question/279152320>)
-- [Jupyter Notebook的介绍、安装及使用](./other/Jupyter的介绍、安装及使用.md)
+- [Jupyter Notebook的介绍、安装及使用](./Other/Jupyter的介绍、安装及使用.md)
 
 ### 3. 科学计数库
 
-- [Python常用科学计算库快速入门(NumPy、SciPy、Pandas、Matplotlib、Scikit-learn)](./other/Python常用科学计算库快速入门(NumPy、SciPy、Pandas、Matplotlib、Scikit-learn).md)  | 更详细的学习见：
+- [Python常用科学计算库快速入门(NumPy、SciPy、Pandas、Matplotlib、Scikit-learn)](./Other/Python常用科学计算库快速入门(NumPy、SciPy、Pandas、Matplotlib、Scikit-learn).md)  | 更详细的学习见：
   
-  - [numpy学习笔记](./other/科学计算库之numpy的使用.md)
-  - [pandas学习笔记](./other/科学计算库之pandas的使用.md)
-  - [matplotlib学习笔记](./other/科学计算库之matplotlib的使用.md)
-  - [scikit-learn学习笔记](./other/科学计算库之scikit-learn的使用.md)
+  - [numpy学习笔记](./Other/科学计算库之numpy的使用.md)
+  - [pandas学习笔记](./Other/科学计算库之pandas的使用.md)
+  - [matplotlib学习笔记](./Other/科学计算库之matplotlib的使用.md)
+  - [scikit-learn学习笔记](./Other/科学计算库之scikit-learn的使用.md)
 - scikit-learn 学习，网上资料：
   - [Sklearn Universal Machine Learning Tutorial Series | 莫烦Python](https://morvanzhou.github.io/tutorials/machine-learning/sklearn/)
   - [scikit-learn教程 -  scikit-learn 0.20.2文档](https://www.studyai.cn/tutorial/index.html)
@@ -197,9 +197,9 @@ AutoML 基本分以下几个方向：（——from：<https://zhuanlan.zhihu.com
 
 Python 图像处理库学习：
 
-- [Python图像处理笔记(含opencv-python/PIL/scikit-image/libtiff/gdal库等等).md](./other/Python图像处理笔记.md) 
+- [Python图像处理笔记(含opencv-python/PIL/scikit-image/libtiff/gdal库等等).md](./Other/Python图像处理笔记.md) 
 - [python+tifffile之tiff文件读写](<https://blog.csdn.net/yuanlulu/article/details/83279768>)
-- 可能用到 matlab，同时学习下：[matlab的安装和学习.md](./other/matlab学习.md)
+- 可能用到 matlab，同时学习下：[matlab的安装和学习.md](./Other/matlab学习.md)
 
 ### 5. Python常用库
 
@@ -229,12 +229,12 @@ Python 图像处理库学习：
 
 ### 0. 框架比较
 
-- [深度学习框架对比.md](./other/深度学习框架对比.md)
+- [深度学习框架对比.md](./Other/深度学习框架对比.md)
 - 
 
 ### 1. tensorflow1.x 学习
 
-tensorflow 安装：[深度学习硬件选购及tensorflow各系统下的环境搭建.md](./other/深度学习硬件选购及tensorflow各系统下的环境搭建.md)  【荐】
+tensorflow 安装：[深度学习硬件选购及tensorflow各系统下的环境搭建.md](./Other/深度学习硬件选购及tensorflow各系统下的环境搭建.md)  【荐】
 
 #### 1.1 快速入门
 
@@ -295,9 +295,9 @@ tensorflow 安装：[深度学习硬件选购及tensorflow各系统下的环境�
 
 笔记补充：
 
-- 对 TensorFlow 的再次理解和总结：[TensorFlow的理解和总结](./other/[转]TensorFlow的理解和总结.md)
-- 对 TensorFlow 的 API 使用记录下来，方便查阅：🔎 [TensorFlow的API详解和记录](./other/[整理]TensorFlow的API详解和记录.md) ★★★ 【荐】，另外这里没记录和没记全的内容通过下面【<a href="#bowen">相关阅读</a>】找找看！！！
-- TensorFlow 使用指定的 GPU 以及显存分析：[tensorflow中使用指定的GPU及显存分析](./other/tensorflow中使用指定的GPU及显存分析.md)  【荐】
+- 对 TensorFlow 的再次理解和总结：[TensorFlow的理解和总结](./Other/[转]TensorFlow的理解和总结.md)
+- 对 TensorFlow 的 API 使用记录下来，方便查阅：🔎 [TensorFlow的API详解和记录](./Other/[整理]TensorFlow的API详解和记录.md) ★★★ 【荐】，另外这里没记录和没记全的内容通过下面【<a href="#bowen">相关阅读</a>】找找看！！！
+- TensorFlow 使用指定的 GPU 以及显存分析：[tensorflow中使用指定的GPU及显存分析](./Other/tensorflow中使用指定的GPU及显存分析.md)  【荐】
 
 #### 1.3 学习来源
 
@@ -364,7 +364,7 @@ tensorflow 安装：[深度学习硬件选购及tensorflow各系统下的环境�
 
 #### keras 学习
 
-- [Keras 学习笔记.md](./other/keras/keras-learning.md)  [荐]★★★
+- [Keras 学习笔记.md](./Other/keras/keras-learning.md)  [荐]★★★
 - [主页 - Keras 中文文档](<https://keras.io/zh/>)
 - [详解keras的model.summary()输出参数Param计算过程](<https://blog.csdn.net/ybdesire/article/details/85217688>) - 关于 console 台打印的参数数量的计算。
 - [tensorflow - What does 'non-trainable params' mean? - Stack Overflow](<https://stackoverflow.com/questions/47312219/what-does-non-trainable-params-mean>) - console 台打印的 non-trainable params 的理解。
@@ -373,11 +373,11 @@ tensorflow 安装：[深度学习硬件选购及tensorflow各系统下的环境�
 
 #### keras - 模型可视化
 
-- [模型可视化 - Keras中文文档](<https://keras-cn.readthedocs.io/en/latest/other/visualization/>)  |  [可视化 Visualization - Keras 中文文档](<https://keras.io/zh/visualization/>)
+- [模型可视化 - Keras中文文档](<https://keras-cn.readthedocs.io/en/latest/Other/visualization/>)  |  [可视化 Visualization - Keras 中文文档](<https://keras.io/zh/visualization/>)
 
 #### keras - 迁移学习/预训练
 
-- [预训练模型Application - Keras中文文档](<https://keras-cn-twkun.readthedocs.io/other/application/>)
+- [预训练模型Application - Keras中文文档](<https://keras-cn-twkun.readthedocs.io/Other/application/>)
 
 #### keras - 导入模型测试
 
@@ -430,14 +430,22 @@ categorical_labels = to_categorical(int_labels, num_classes=None)
 
 > 我们证明，初始化是模型中特别重要的一件事情，这一点你可能经常忽略。此外，文章还证明，即便像 Keras 这种卓越的库中的默认设置，也不能想当然拿来就用。
 
-### 4. “HelloWord”：MNIST
 
-- [MNIST数据集二进制格式转换为图片.md](./other/MNIST/MNIST数据集二进制格式转换为图片.md)
-- [手写数字识别MNIST讲解.md](./other/MNIST/手写数字识别MNIST讲解.md)
+
+### 4. pytorch 学习
+
+pytorch 学习：[pytorch 学习](./Other/pytorch/pytorch学习.md)
+
+
+
+### 5. “HelloWord”：MNIST
+
+- [MNIST数据集二进制格式转换为图片.md](./Other/MNIST/MNIST数据集二进制格式转换为图片.md)
+- [手写数字识别MNIST讲解.md](./Other/MNIST/手写数字识别MNIST讲解.md)
 
 <a name="bowen"></a>
 
-### 5. 相关阅读
+### 6. 相关阅读
 
 #### 损失函数(代价函数)
 
@@ -459,7 +467,7 @@ categorical_labels = to_categorical(int_labels, num_classes=None)
 
 2）学习率/权重衰减/动量/滑动平均等
 
-- [个人笔记-优化器参数详解（learning rate、weight decay、momentum、滑动平均等）](./other/tensorflow优化器参数详解.md)
+- [个人笔记-优化器参数详解（learning rate、weight decay、momentum、滑动平均等）](./Other/tensorflow优化器参数详解.md)
 - [10个梯度下降优化算法+备忘单-图文外翻-AI研习社](<https://ai.yanxishe.com/page/TextTranslation/1603?from=timeline>) - 值得看看。  [荐]★★★
 
 #### 炼丹技巧
@@ -488,7 +496,7 @@ categorical_labels = to_categorical(int_labels, num_classes=None)
 - [关于Padding实现的一些细节 - 知乎](<https://zhuanlan.zhihu.com/p/73118626>) - pytorch 采用的是第一种，即在卷积或池化时先确定 padding 数量，自动推导输出形状；tensorflow 和 caffe 采用的是更为人熟知的第二种，即先根据 Valid 还是 Same 确定输出大小，再自动确定 padding 的数量。
 - ……
 
-### 6. 一些问题
+### 7. 一些问题
 
 **1、什么是基准测试？**
 
@@ -639,7 +647,8 @@ img = np.expand_dims(img, axis=0)
 ### 附：一些问题
 
 - [为什么图像分类任务要从256x256中裁剪出224x224](<https://mp.weixin.qq.com/s/3_fn2oBrjrbrybF10UpFfw>)
-- 
+
+  
 
 
 
