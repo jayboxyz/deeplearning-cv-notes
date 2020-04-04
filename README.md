@@ -28,6 +28,11 @@
 
 AI Conference Deadlines：<https://aideadlin.es/?sub=ML,CV,NLP,RO,SP,DM>
 
+比赛：
+
+- Kaggle官网：https://www.kaggle.com/
+- 天池AI开发者社区：https://tianchi.aliyun.com/
+
 ## 一、基础学习
 
 ### 0. 数学基础
@@ -36,59 +41,47 @@ AI Conference Deadlines：<https://aideadlin.es/?sub=ML,CV,NLP,RO,SP,DM>
 
 - [标准差和方差](<https://www.shuxuele.com/data/standard-deviation.html>)  [荐]★★★
 - [理解梯度下降](<http://liuchengxu.org/blog-cn/posts/dive-into-gradient-decent/>)  [荐]★★★
-  > 于是我们可以得出结论：函数在某点的梯度是这样一个向量，它的方向与取得方向导数最大值的方向一致，而它的模为方向导数的最大值。
-  >
-  > 总结：
-  >
-  > |   概念   |                 物理意义                 |
-  > | :------: | :--------------------------------------: |
-  > |   导数   |          函数在该点的瞬时变化率          |
-  > |  偏导数  |        函数在坐标轴方向上的变化率        |
-  > | 方向导数 |     函数在某点沿某个特定方向的变化率     |
-  > |   梯度   | 函数在该点沿所有方向变化率最大的那个方向 |
 - [one-hot 编码](<https://www.jianshu.com/p/a47a1c1fa3f1>)
 - [数据标准化/归一化normalization](<https://blog.csdn.net/pipisorry/article/details/52247379>)  [荐] 
 
-### 1. 深度学习★
+### 1. 深度学习
 
 #### 1.1. 基础入门
+
+科普文章：
+
+- [推荐 | 机器学习经典总结，入门必读【17000字，可下载PDF】](https://mp.weixin.qq.com/s?__biz=MzIxODM4MjA5MA==&mid=2247485716&idx=1&sn=5b182c1c0b6578b1b1f3b75878ec1364&chksm=97ea2371a09daa6713afbe506d2bc40a7b2062be151c58425cefabf6cb3c41de37e9f51fdb0b&mpshare=1&scene=1&srcid=1209sLVUbZIHaCnoa9sLlfZ4#rd)
+- [一图看懂| 人工智能知识体系大全](https://mp.weixin.qq.com/s?__biz=MzU2MDc1MjEyMQ==&mid=2247486182&amp;idx=1&amp;sn=6174593f5862193e98cda311022aeb94&source=41#wechat_redirect)
+- [云计算、大数据和人工智能这么火，究竟是什么关系？](https://mp.weixin.qq.com/s?__biz=MzU2MDc1MjEyMQ==&mid=2247486185&amp;idx=1&amp;sn=0690fac9da75b1ea9f44c4f79df461a9&source=41#wechat_redirect)
+- [漫画：人工智能简史](https://mp.weixin.qq.com/s/0ps-tSx2xV1090NeZNQAFA)
 
 入门：
 
 - [神经网络入门 - 阮一峰的网络日志](<http://www.ruanyifeng.com/blog/2017/07/neural-network.html>)  [荐]
+- [如何识别图像边缘？ - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2016/07/edge-recognition.html)
 - [从入门到精通：卷积神经网络初学者指南 | 机器之心](<https://www.jiqizhixin.com/articles/2016-08-01-3>)
 - [能否对卷积神经网络工作原理做一个直观的解释？ - YJango的回答 - 知乎](<https://www.zhihu.com/question/39022858/answer/194996805>)
-- [深度学习入门指南：25个初学者要知道的概念 - 知乎](<https://zhuanlan.zhihu.com/p/27186569>)  [荐]
-  ``` 
-  神经网络中的基础概念
-  1.神经元(Neuron)		2.加权/权重(Weights)		3.偏置/偏倚(Bias)
-  4.激活函数		5.神经网络		6.输入层/输出层/隐藏层		7.多层感知器(MLP-Multi Layer Perceptron)		8.正向传播(forward propagation)
-  9.成本函数(cost function)		10.梯度下降(gradient descent)
-  11.学习速率(learning rate)		12.反向传播(back propagation)
-  13.分批(Batches)	14.周期(epochs)		15.Dropout方法	16.分批标准化(Batch Normalization)	
-  
-  卷积神经网络
-  17.过滤器/滤波器(Filter)	18.CNN(卷积神经网络)		19.池化(pooling)		20.补白(padding)	21.数据增强(Data Augmentation)	
-  
-  递归神经网络
-  22.递归神经元(Recurrent Neural Network)	23.递归神经网络(RNN-Recurrent Neural Network)	24.梯度消失问题		25.梯度爆炸问题
-  ```
+- [深度学习入门指南：25个初学者要知道的概念 - 知乎](<https://zhuanlan.zhihu.com/p/27186569>)  [荐]  
 
 基础：
 
 - [李理：详解卷积神经网络 - qunnie_yi的博客 - CSDN博客](<https://blog.csdn.net/qunnie_yi/article/details/80127218>)
 - [神经网络激励函数的作用是什么？有没有形象的解释？ - 忆臻的回答 - 知乎](https://www.zhihu.com/question/22334626/answer/147543436)  [荐]
 - [为什么都说神经网络是个黑箱？ - mileistone的回答 - 知乎](https://www.zhihu.com/question/263672028/answer/430179912)
-- [【深度学习系列】卷积神经网络CNN原理详解(一)——基本原理](https://www.cnblogs.com/charlotte77/p/7759802.html)  [荐]
-- [一文弄懂神经网络中的反向传播法——BackPropagation](https://www.cnblogs.com/charlotte77/p/5629865.html)  [荐]
+- [【深度学习系列】卷积神经网络CNN原理详解(一)——基本原理 - Charlotte77](https://www.cnblogs.com/charlotte77/p/7759802.html)  [荐]
+- [一文弄懂神经网络中的反向传播法——BackPropagation - Charlotte77](https://www.cnblogs.com/charlotte77/p/5629865.html)  [荐]
 - [如何直观地解释 backpropagation 算法？ - Anonymous的回答 - 知乎](https://www.zhihu.com/question/27239198/answer/89853077)
+
+深度学习系列文章：
+
+- MachineLP：[MachineLP博客目录](https://blog.csdn.net/u014365862/article/details/78422372)
+- hanbingtao：[《零基础入门深度学习》系列文章](https://www.zybuluo.com/hanbingtao/note/433855)
 
 #### 1.2 迁移学习
 
-以下几篇值得看看：
-
 - [一文看懂迁移学习：怎样用预训练模型搞定深度神经网络？ - 知乎](<https://zhuanlan.zhihu.com/p/27657264>)  [荐] 
 - [pytorch-handbook/chapter4/4.1-fine-tuning.ipynb](<https://github.com/zergtant/pytorch-handbook/blob/a95c3a28564050640676818adbfd75eb104e95ea/chapter4/4.1-fine-tuning.ipynb>)  [荐]
+  
   > 把别人现成的训练好了的模型拿过来，换成自己的数据，调整一下参数，再训练一遍，这就是微调（fine-tune）
   >
   > 。。。
@@ -159,11 +152,11 @@ AutoML 基本分以下几个方向：（——from：<https://zhuanlan.zhihu.com
 
 先学习掌握以下内容，包括 Python 基础、Anconada 安装等等：
 
-- [IDE之PyCharm的设置和Debug入门](./Other/IDE之PyCharm的设置和Debug入门.md)
-- [Python基础入门笔记（一）](./Other/Python/Python基础入门笔记（一）.md)
-- [Python基础入门笔记（二）](./Other/Python/Python基础入门笔记（二）.md)
-- [Python内置库和函数使用及常见功能实现记录](./Other/Python/Python内置库和函数使用及常见功能实现记录.md)
-- [一键安装所有第三方库](./Other/Python/Python一键安装所有第三方库.md)
+- [【笔记】IDE之PyCharm的设置和Debug入门](./1.python/IDE之PyCharm的设置和Debug入门.md)
+- [【笔记】Python基础入门笔记（一）](./1.python/python_basic/Python基础入门笔记（一）.md)
+- [【笔记】Python基础入门笔记（二）](./1.python/python_basic/Python基础入门笔记（二）.md)1.python\python_basic
+- [【笔记】Python内置库和函数使用及常见功能实现记录](./1.python/python_basic/Python内置库和函数使用及常见功能实现记录.md)
+- [【笔记】一键安装所有第三方库](./1.python/python_basic/Python一键安装所有第三方库.md)
 - 关于 Python 的博文：
   - [PEP 8 Python编码风格指南概要](<https://juejin.im/post/58b129b32f301e006c035a62>)
   - [Python程序执行顺序](<https://blog.csdn.net/kunpengtingting/article/details/80178618>) 
@@ -179,12 +172,12 @@ AutoML 基本分以下几个方向：（——from：<https://zhuanlan.zhihu.com
 
 ### 3. 科学计数库
 
-- [Python常用科学计算库快速入门(NumPy、SciPy、Pandas、Matplotlib、Scikit-learn)](./Other/Python常用科学计算库快速入门(NumPy、SciPy、Pandas、Matplotlib、Scikit-learn).md)  | 更详细的学习见：
+- [Python常用科学计算库快速入门(NumPy、SciPy、Pandas、Matplotlib、Scikit-learn)](./1.python/python_library/Python常用科学计算库快速入门(NumPy、SciPy、Pandas、Matplotlib、Scikit-learn).md)  | 更详细的学习见：
   
-  - [numpy学习笔记](./Other/科学计算库之numpy的使用.md)
-  - [pandas学习笔记](./Other/科学计算库之pandas的使用.md)
-  - [matplotlib学习笔记](./Other/科学计算库之matplotlib的使用.md)
-  - [scikit-learn学习笔记](./Other/科学计算库之scikit-learn的使用.md)
+  - [【笔记】numpy学习笔记](./1.python/python_library/科学计算库之numpy的使用.md)
+  - [【笔记】pandas学习笔记](./1.python/python_library/科学计算库之pandas的使用.md)
+  - [【笔记】matplotlib学习笔记](./1.python/python_library/科学计算库之matplotlib的使用.md)
+  - [【笔记】scikit-learn学习笔记](./1.python/python_library/科学计算库之scikit-learn的使用.md)
 - scikit-learn 学习，网上资料：
   - [Sklearn Universal Machine Learning Tutorial Series | 莫烦Python](https://morvanzhou.github.io/tutorials/machine-learning/sklearn/)
   - [scikit-learn教程 -  scikit-learn 0.20.2文档](https://www.studyai.cn/tutorial/index.html)
@@ -197,7 +190,7 @@ AutoML 基本分以下几个方向：（——from：<https://zhuanlan.zhihu.com
 
 Python 图像处理库学习：
 
-- [Python图像处理笔记(含opencv-python/PIL/scikit-image/libtiff/gdal库等等).md](./Other/Python图像处理笔记.md) 
+- [Python图像处理笔记(含opencv-python/PIL/scikit-image/libtiff/gdal库等等).md](./1.python/\python_library_ImageProcessing/Python图像处理笔记.md) 
 - [python+tifffile之tiff文件读写](<https://blog.csdn.net/yuanlulu/article/details/83279768>)
 - 可能用到 matlab，同时学习下：[matlab的安装和学习.md](./Other/matlab学习.md)
 
@@ -227,225 +220,21 @@ Python 图像处理库学习：
 
 ## 二、框架学习
 
-### 0. 框架比较
+### 1. tensorflow学习
 
-- [深度学习框架对比.md](./Other/深度学习框架对比.md)
-- 
+[【笔记】dl_framework\\tensorflow](./3\.dl_framework/tensorflow/readme.md)
 
-### 1. tensorflow1.x 学习
+[【笔记】深度学习硬件选购和tensorflow环境搭建](./3\.dl_framework/深度学习硬件选购及tensorflow各系统下的环境搭建.md)
 
-tensorflow 安装：[深度学习硬件选购及tensorflow各系统下的环境搭建.md](./Other/深度学习硬件选购及tensorflow各系统下的环境搭建.md)  【荐】
+### 2. keras学习
 
-#### 1.1 快速入门
+[【笔记】dl_framework\\keras](./3\.dl_framework/keras/readme.md)
 
-参考「机器之心」编译文章：
+### 3. pytorch学习
 
-- [令人困惑的TensorFlow！](https://zhuanlan.zhihu.com/p/38812133)
-- [令人困惑的 TensorFlow！(II)](https://zhuanlan.zhihu.com/p/46008208)
 
-#### 1.2 学习笔记
 
-《深度学习框架Tensorflow学习与应用》笔记索引（其中会有补充一些内容）：
-
-- [01-Tensorflow简介，Anaconda安装，Tensorflow的CPU版本安装](./Notes/01-Tensorflow简介，Anaconda安装，Tensorflow的CPU版本安装.md)
-- [02-Tensorflow的基础使用，包括对图(graphs),会话(session),张量(tensor),变量(Variable)的一些解释和操作](./Notes/02-Tensorflow的基础使用，包括对图\(graphs\),会话\(session\),张量\(tensor\),变量\(Variable\)的一些解释和操作.md)
-- [03-Tensorflow线性回归以及分类的简单使用](./Notes/03-Tensorflow线性回归以及分类的简单使用.md)
-  ``` xml
-  - 开始以手写数字识别 MNIST 例子来讲解，关于 MNIST 的内容还可以看看该 README 下面的
-  ```
-- [04-softmax，交叉熵(cross-entropy)，dropout以及Tensorflow中各种优化器的介绍](./Notes/04-softmax，交叉熵\(cross-entropy\)，dropout以及Tensorflow中各种优化器的介绍.md) - 
-  ``` xml
-  - softmax、损失函数、dropout
-  - tensorflow 中各种优化器
-  ```
-  
-  注：在（三）节开始的代码`4-1交叉熵.py`，发现 tf.nn.softmax_cross_entropy_with_logits 用法的小问题，[详见-传送](./Notes/tf.nn.softmax_cross_entropy_with_logits的用法问题.md)
-- [05-使用Tensorboard进行结构可视化，以及网络运算过程可视化](./Notes/05-使用Tensorboard进行结构可视化，以及网络运算过程可视化.md)
-  ``` xml
-  - 用例子演示如何使结构的可视化
-  - 参数细节的可视化，绘制各个参数变化情况
-  - 补充内容：可视化工具 TensorBoard 更多使用和细节
-  ```
-- [06-卷积神经网络CNN的讲解，以及用CNN解决MNIST分类问题](./Notes/06-卷积神经网络CNN的讲解，以及用CNN解决MNIST分类问题.md)
-  ``` xml
-  - 卷积神经网络 CNN（包括局部感受野、权值共享、卷积、二维池化、多通道池化等）
-  - 补充内容：参数数量的计算（以 LeNet-5 为例子）
-  - 补充内容：TensorFlow 中的 Padding 到底是怎样的？ 
-  - 补充内容：TensorFlow 中的卷积和池化 API 详解
-  - 补充内容：TensorFlow 中的 Summary 的用法
-  ```
-- [07-递归神经网络LSTM的讲解，以及LSTM网络的使用](./Notes/07-递归神经网络LSTM的讲解，以及LSTM网络的使用.md)
-- [08-保存和载入模型，使用Google的图像识别网络inception-v3进行图像识别](./Notes/08-保存和载入模型，使用Google的图像识别网络inception-v3进行图像识别.md)
-  ``` xml
-  - 保存模型、加载模型
-  - 使用 Inception-v3 网络模型进行图像识别
-  - 补充内容：加载预训练模型和保存模型以及 fine-tuning
-  - 补充内容：迁移学习
-  ```
-- [09-Tensorflow的GPU版本安装。设计自己的网络模型，并训练自己的网络模型进行图像识别](./Notes/09-Tensorflow的GPU版本安装。设计自己的网络模型，并训练自己的网络模型进行图像识别.md)
-  ``` xml
-  - TensorFlow 的 GPU 版本安装
-  - 使用 inception-v3 模型进行训练预测
-  - 使用 tensorflow 已经训练好的模型进行微调
-  - 制作 `.tfrecord` 存储文件
-  ```
-- [10-使用Tensorflow进行验证码识别](./Notes/10-使用Tensorflow进行验证码识别.md)
-- [11-Tensorflow在NLP中的使用(一)](./Notes/11-Tensorflow在NLP中的使用\(一\).md)
-- [12-Tensorflow在NLP中的使用(二)](./Notes/12-Tensorflow在NLP中的使用\(二\).md)
-
-笔记补充：
-
-- 对 TensorFlow 的再次理解和总结：[TensorFlow的理解和总结](./Other/[转]TensorFlow的理解和总结.md)
-- 对 TensorFlow 的 API 使用记录下来，方便查阅：🔎 [TensorFlow的API详解和记录](./Other/[整理]TensorFlow的API详解和记录.md) ★★★ 【荐】，另外这里没记录和没记全的内容通过下面【<a href="#bowen">相关阅读</a>】找找看！！！
-- TensorFlow 使用指定的 GPU 以及显存分析：[tensorflow中使用指定的GPU及显存分析](./Other/tensorflow中使用指定的GPU及显存分析.md)  【荐】
-
-#### 1.3 学习来源
-
-学习来源：炼数成金的《深度学习框架TensorFlow学习与应用》视频 + 网上博客内容  。
-
-视频目录：
-
-```xml
-第 1周 Tensorflow简介，Anaconda安装，Tensorflow的CPU版本安装
-第 2周 Tensorflow的基础使用，包括对图(graphs),会话(session),张量(tensor),变量(Variable)的一些解释和操作
-第 3周 Tensorflow线性回归以及分类的简单使用
-第 4周 softmax，交叉熵(cross-entropy)，dropout以及Tensorflow中各种优化器的介绍
-第 5周 卷积神经网络CNN的讲解，以及用CNN解决MNIST分类问题
-第 6周 使用Tensorboard进行结构可视化，以及网络运算过程可视化
-第 7周 递归神经网络LSTM的讲解，以及LSTM网络的使用
-第 8周 保存和载入模型，使用Google的图像识别网络inception-v3进行图像识别
-第 9周 Tensorflow的GPU版本安装。设计自己的网络模型，并训练自己的网络模型进行图像识别
-第10周 使用Tensorflow进行验证码识别
-第11周 Tensorflow在NLP中的使用(一)
-第12周 Tensorflow在NLP中的使用(二)
-```
-
-> 说明：实际第 5 周讲的是 tensorborad 结构可视化，第 6 周讲的是 CNN，下面网盘该视频的文件夹顺序，我已修正。
-
-在线观看：
-
-- YouTube：[tensorflow教程（十课）](https://www.youtube.com/watch?v=eAtGqz8ytOI&list=PLjSwXXbVlK6IHzhLOMpwHHLjYmINRstrk&index=2&t=0s)
-- 或 B 站：[《深度学习框架TensorFlow学习与应用》](https://www.bilibili.com/video/av20542427/)
-
-视频下载：
-
-- 《深度学习框架Tensorflow学习与应用》（含视频+代码+课件，视频总时长：13小时31分钟）  【[百度网盘下载](https://pan.baidu.com/s/16OINOrFiRXbqmqOFjCFzLQ )  密码: 1a8j】
-- 《深度学习框架Tensorflow学习与应用[只有videos-720p]》（该份资料只有视频文件） 【 [百度网盘下载](https://pan.baidu.com/s/1oQLgWFEBsVrcKJN4swEdzg)  密码: i3e2】
-
-#### 1.4 其他资料
-
-其他学习视频，觉得有必要可以看看：
-
-- 油管视频：[TF Girls 修炼指南](https://www.youtube.com/watch?v=TrWqRMJZU8A&list=PLwY2GJhAPWRcZxxVFpNhhfivuW0kX15yG&index=2)  或 B 站观看： [TF Girls 修炼指南](https://space.bilibili.com/16696495/#/channel/detail?cid=1588) 
-- 油管视频：51CTO视频 [深度学习框架-Tensorflow案例实战视频课程](https://www.youtube.com/watch?v=-pYU4ub7g0c&list=PL8LR_PrSuIRhpEYA3sJ-J5hYGYUSwZwdS)、或 B 站观看：[深度学习框架-Tensorflow案例实战视频课程](https://www.bilibili.com/video/av29663946/?p=1)
-- [Tensorflow 教程系列 | 莫烦Python](<https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/>)
-
-相关资料：
-
-- 郑泽宇/顾思宇：[《Tensorflow：实战Google深度学习框架》](https://book.douban.com/subject/26976457/) 出版时间 2017-2-10
-  - 官方维护的书中的 TensorFlow 不同版本的示例程序仓库：<https://github.com/caicloud/tensorflow-tutorial>；
-  - 有人在 GitHub 上写了笔记：[TensorFlow_learning_notes](https://github.com/cookeem/TensorFlow_learning_notes)
-- 黄文坚/唐源：[《TensorFlow实战》](https://book.douban.com/subject/26974266/) 出版时间 2017-2-1
-  - 源码实现：<https://github.com/terrytangyuan/tensorflow-in-practice-code>
-- 掘金翻译：[TensorFlow 最新官方文档中文版 V1.10 ](https://github.com/xitu/tensorflow-docs)
-- 极客学院：[TensorFlow 官方文档中文版](http://wiki.jikexueyuan.com/project/tensorflow-zh/)
-- [TensorFlow 官方文档中文版](http://www.tensorfly.cn/tfdoc/get_started/introduction.html)
-
-
-
-### 2. tensorflow2.x 学习
-
-学习资料：
-
-- [czy36mengfei/tensorflow2_tutorials_chinese](<https://github.com/czy36mengfei/tensorflow2_tutorials_chinese>) - tensorflow2中文教程，持续更新(当前版本:tensorflow2.0)
-- 
-
-### 3. keras 学习
-
-#### keras 学习
-
-- [Keras 学习笔记.md](./Other/keras/keras-learning.md)  [荐]★★★
-- [主页 - Keras 中文文档](<https://keras.io/zh/>)
-- [详解keras的model.summary()输出参数Param计算过程](<https://blog.csdn.net/ybdesire/article/details/85217688>) - 关于 console 台打印的参数数量的计算。
-- [tensorflow - What does 'non-trainable params' mean? - Stack Overflow](<https://stackoverflow.com/questions/47312219/what-does-non-trainable-params-mean>) - console 台打印的 non-trainable params 的理解。
-
-
-
-#### keras - 模型可视化
-
-- [模型可视化 - Keras中文文档](<https://keras-cn.readthedocs.io/en/latest/Other/visualization/>)  |  [可视化 Visualization - Keras 中文文档](<https://keras.io/zh/visualization/>)
-
-#### keras - 迁移学习/预训练
-
-- [预训练模型Application - Keras中文文档](<https://keras-cn-twkun.readthedocs.io/Other/application/>)
-
-#### keras - 导入模型测试
-
-1、[Keras加载预训练模型 - 豌豆ip代理](<https://www.wandouip.com/t5i44145/>)  [荐]
-
-``` 
-比如训练模型的时候用到了自定义的模块AttentionLayer，那么在加载模型的时候需要在custom_objects的参数中声明对应的字典项，否则将会报模块未定义的错误。
-
-model = load_model('./model1/GRUAttention( 0.8574).h5', custom_objects={'AttentionLayer': AttentionLayer})
-在训练的过程中有时候也会用到自定义的损失函数，这时候如果你加载模型知识为了进行预测不再其基础上再进行训练，那么加载模型的时候就没有必要在custom_objects参数中声明对应的字典项，只需要将compile参数设为False即可：
-
-model = load_model('./model1/GRUAttention(0.8574).h5', compile=False})
-如果此时你好需要在加载后的模型上继续进行训练，那么声明损失函数对应的字典项就是必须的：
-
-model = load_model('./model1/GRUAttention(0.8574).h5', compile=True, custom_objects={'focal_loss_fixed':focal_loss})
-```
-
-
-
-#### keras - 使用多 GPU
-
-- [如何让keras训练深度网络时使用两张显卡？ - 知乎](<https://www.zhihu.com/question/67239897>)
-- [keras 关于使用多个 gpu](<https://blog.csdn.net/MachineRandy/article/details/80040765>)  |  [Keras同时用多张显卡训练网络 - 简书](<https://www.jianshu.com/p/db0ba022936f>)
-- [Keras多GPU及分布式](<https://blog.csdn.net/qq_34564612/article/details/79209965>) - 有两种方法可以在多张 GPU 上运行一个模型：数据并行/设备并行。大多数情况下，你需要的很可能是“数据并行”。
-
-#### keras - 相关文章
-
-1、[Keras中的多分类损失函数categorical_crossentropy](<https://blog.csdn.net/u010412858/article/details/76842216>)
-
-``` 
-注意：当使用`categorical_crossentropy`损失函数时，你的标签应为多类模式，例如如果你有 10 个类别，每一个样本的标签应该是一个 10 维的向量，该向量在对应有值的索引位置为 1 其余为 0。
-
-可以使用这个方法进行转换：
-
-from keras.utils.np_utils import to_categorical
-categorical_labels = to_categorical(int_labels, num_classes=None)
-```
-
-2、[keras中的keras.utils.to_categorical方法](<https://blog.csdn.net/nima1994/article/details/82468965>) - `to_categorical(y, num_classes=None, dtype='float32')`
-
-```
-将整型标签转为 onehot。y 为 int 数组，num_classes 为标签类别总数，大于 max(y)（标签从0开始的）。
-
-返回：如果 num_classes=None，返回 len(y)*[max(y)+1]（维度，m*n表示m行n列矩阵，下同），否则为 len(y)*num_classes。说出来显得复杂，请看下面实例。
-```
-
-3、[keras中的回调函数](<https://blog.csdn.net/jiandanjinxin/article/details/77097910>)
-
-4、[为何Keras中的CNN是有问题的，如何修复它们？ - 知乎](<https://zhuanlan.zhihu.com/p/73549089>) - 关于参数初始化的问题。
-
-> 我们证明，初始化是模型中特别重要的一件事情，这一点你可能经常忽略。此外，文章还证明，即便像 Keras 这种卓越的库中的默认设置，也不能想当然拿来就用。
-
-
-
-### 4. pytorch 学习
-
-pytorch 学习：[pytorch 学习](./Other/pytorch/pytorch学习.md)
-
-
-
-### 5. “HelloWord”：MNIST
-
-- [MNIST数据集二进制格式转换为图片.md](./Other/MNIST/MNIST数据集二进制格式转换为图片.md)
-- [手写数字识别MNIST讲解.md](./Other/MNIST/手写数字识别MNIST讲解.md)
-
-<a name="bowen"></a>
-
-### 6. 相关阅读
+### 4. 相关阅读
 
 #### 损失函数(代价函数)
 
@@ -475,7 +264,6 @@ pytorch 学习：[pytorch 学习](./Other/pytorch/pytorch学习.md)
 1）批归一化(Batch Normalization)：
 
 - [Batch Normalization学习笔记及其实现 - 知乎](<https://zhuanlan.zhihu.com/p/26138673>)
-- 
 
 2）批大小(Batch Size)
 
@@ -496,7 +284,7 @@ pytorch 学习：[pytorch 学习](./Other/pytorch/pytorch学习.md)
 - [关于Padding实现的一些细节 - 知乎](<https://zhuanlan.zhihu.com/p/73118626>) - pytorch 采用的是第一种，即在卷积或池化时先确定 padding 数量，自动推导输出形状；tensorflow 和 caffe 采用的是更为人熟知的第二种，即先根据 Valid 还是 Same 确定输出大小，再自动确定 padding 的数量。
 - ……
 
-### 7. 一些问题
+### 5. 一些问题
 
 **1、什么是基准测试？**
 
@@ -522,6 +310,10 @@ pytorch 学习：[pytorch 学习](./Other/pytorch/pytorch学习.md)
 
 
 ## 三、计算机视觉
+
+计算机视觉牛人博客和代码汇总：[计算机视觉牛人博客和代码汇总（全） - findumars - 博客园](https://www.cnblogs.com/findumars/p/5009003.html)
+
+
 
 ### 1. 数据预处理
 
@@ -585,14 +377,12 @@ img = np.expand_dims(img, axis=0)
 图像处理：
 
 - [图像放缩中最近邻插值和双线性插值的基本原理](<https://blog.csdn.net/Andrew659/article/details/4818988>)  [荐]
-- 
 
 网上博文：
 
 - [OpenCV探索之路（十三）：详解掩膜mask](https://www.cnblogs.com/skyfsm/p/6894685.html)
 - [OpenCV探索之路（二十三）：特征检测和特征匹配方法汇总](https://www.cnblogs.com/skyfsm/p/7401523.html)
 - [OpenCV探索之路（二十四）图像拼接和图像融合技术](https://www.cnblogs.com/skyfsm/p/7411961.html)
-- 
 
 优质专栏：
 
@@ -602,8 +392,6 @@ img = np.expand_dims(img, axis=0)
 ### 3. 存在的问题
 
 #### 1）样本不均衡
-
-
 
 ### 4. 注意力机制
 
@@ -648,9 +436,59 @@ img = np.expand_dims(img, axis=0)
 
 - [为什么图像分类任务要从256x256中裁剪出224x224](<https://mp.weixin.qq.com/s/3_fn2oBrjrbrybF10UpFfw>)
 
-  
 
 
+
+### 代码搜索
+
+- [Papers With Code](https://paperswithcode.com/sota)
+- [zziz/pwc: Papers with code.](https://github.com/zziz/pwc)
+
+
+
+## 论文
+
+如何找论文：[如何找论文 - 知乎](https://zhuanlan.zhihu.com/p/27484748)
+
+- [Google 学术搜索](https://scholar.google.com.hk/?hl=zh-CN)  |  [牛顿网 - 谷歌学术搜索镜像](<http://www.ndtsg.com/>)  |  [gfsoso 学术搜索](<https://c.glgoo.top/scholar/>)  |  [谷歌学术镜像](<http://ac.scmor.com/>)
+
+- [百度学术](http://xueshu.baidu.com/)
+
+- [Bing 学术](https://cn.bing.com/academic/?FORM=HDRSC4&setmkt=zh-CN)
+
+- [谷粉学术](https://gfsoso.99lb.net/)
+
+- [SemanticScholar](<https://www.semanticscholar.org/>) - 一个免费学术搜索引擎，其检索结果来自于期刊、学术会议资料或者是学术机构的文献。
+
+- [中国知网](http://www.cnki.net/) 
+
+- [arXiv](https://arxiv.org/)（或  [Arxiv Sanity](<http://www.arxiv-sanity.com/>)）
+
+- [Sci-hub.tw](https://sci-hub.tw/)  |  [sci-hub.shop](<https://www.sci-hub.shop/>)  
+
+  > 只要你有论文的 URL 或者 DOI（Digital Object Identifier）就可以粘贴到搜索框里，点击“Open”就会出现你想要的论文。*注：什么是 DOI，请看 [学术干货丨DOI是什么？怎样利用DOI快速检索文献？ – 材料牛](http://www.cailiaoniu.com/37930.html)*
+
+如何进行论文研读？
+
+- [【专知独家干货】-《科研写作之读论文》的一些心得体会](https://cloud.tencent.com/developer/article/1086996)
+- [论文写作的一些经验 | Stay Hungry,Stay Foolish.](https://tobiaslee.top/2018/04/03/How-to-Write-a-Paper/)
+
+如何进行论文写作？
+
+- [如何写一篇合格的NLP论文 - 知乎](https://zhuanlan.zhihu.com/p/58752815)
+- [深度学习论文写作中多模型结果比较方法 | 治伦](http://zhilun.me/136.html)
+
+学位论文排版：[吐血推荐收藏的学位论文排版教程（完整版）](<https://mp.weixin.qq.com/s?__biz=Mzg5NzAxMDgwNg==&mid=2247483979&idx=1&sn=9accf54de60fa6fe8f01cbd22e4df1a8&chksm=c0791f52f70e9644157b1c7a2ac0e3a0ba3e785ce45ff84ca22dbab50f7f0e542d7e6eb24b4f&mpshare=1&scene=23&srcid=1214F5bWju4m5T9SrayMrBx2#rd>)
+
+
+
+## 思考
+
+- [周志华：关于机器学习的一点思考](https://mp.weixin.qq.com/s/sEZM_o5D6AhyMgvocbsFhw) - 2018-09-23 
+- [你知道为什么说深度学习是这时代的炼金术吗？](https://mp.weixin.qq.com/s/y3KqZi68uoWnW_VHV-dtTg)
+- [深度 | 周志华：“深”为什么重要，以及还有什么深的网络](<https://mp.weixin.qq.com/s/T9MjdT2r9KSXZAxAEcm6mA>) - 2019-08-14
+- [贾扬清：我对人工智能方向的一点浅见](https://mp.weixin.qq.com/s/ULrrd68K74CyTxlHUC8rFA)
+- [腾讯 AI Lab &Robotics X 主任张正友博士：计算机视觉的三生三世 | CCF-GAIR 2019](<https://cloud.tencent.com/developer/article/1463219>)
 
 
 

@@ -112,8 +112,6 @@ pipreqs [options] <path>
 
 ## 参考文章：
 
-
-
 - [python 批量导出项目所依赖的所有库文件及安装的方法（包导出与导入）](<https://blog.csdn.net/mezheng/article/details/84317515>)
 - [Python使用requirements.txt安装类库](https://www.cnblogs.com/zknublx/p/5953921.html)
 - [浅谈pipreqs组件(自动生成需要导入的模块信息)](https://www.cnblogs.com/fu-yong/p/9213723.html)
