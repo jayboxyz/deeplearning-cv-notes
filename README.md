@@ -165,10 +165,10 @@ AutoML 基本分以下几个方向：（——from：<https://zhuanlan.zhihu.com
   - [上传自己编写的包到PYPI](https://zhaoxuhui.top/blog/2017/12/17/%E4%B8%8A%E4%BC%A0%E8%87%AA%E5%B7%B1%E7%BC%96%E5%86%99%E7%9A%84%E5%8C%85%E5%88%B0PYPI.html)
   - [Python中的注解“@” - 简书](<https://www.jianshu.com/p/7a644520418b>)
   - [Python--参数注解](<https://blog.csdn.net/weixin_41869526/article/details/80021061>)
-- [Anaconda的介绍、安装和环境管理](./Other/Anaconda的介绍、安装和环境管理.md)
-  - [conda和pip常用命令速查.md](./Other/conda和pip常用命令速查.md)
+- [Anaconda的介绍、安装和环境管理](./1.python/Anaconda的介绍、安装和环境管理.md)
+  - [conda和pip常用命令速查.md](./1.python/conda和pip常用命令速查.md)
 - [python包管理工具：Conda和pip比较](<https://china-testing.github.io/conda_pip_compare.html>)  |  [Ubuntu下python选择pip install还是conda install更加合适？ - 知乎](<https://www.zhihu.com/question/279152320>)
-- [Jupyter Notebook的介绍、安装及使用](./Other/Jupyter的介绍、安装及使用.md)
+- [Jupyter Notebook的介绍、安装及使用](./1.python/Jupyter的介绍、安装及使用.md)
 
 ### 3. 科学计数库
 
