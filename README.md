@@ -1,12 +1,12 @@
 <a name="top"></a>
 
-# 学习记录
+[toc]
 
 深度学习、计算机视觉学习过程。
 
-## 写在前面
+# 写在前面
 
-人工智能最新学术研究和技术实现追寻，可关注：
+人工智能最新学术研究和技术实现追寻可关注：
 
 - [量子位 - 知乎 - 专栏](https://zhuanlan.zhihu.com/qbitai)
 - [机器之心 - 知乎 - 专栏](https://zhuanlan.zhihu.com/jiqizhixin)
@@ -33,20 +33,18 @@ AI Conference Deadlines：<https://aideadlin.es/?sub=ML,CV,NLP,RO,SP,DM>
 - Kaggle官网：https://www.kaggle.com/
 - 天池AI开发者社区：https://tianchi.aliyun.com/
 
-## 一、基础学习
+# 一、基础学习
 
-### 0. 数学基础
-
-文章和博客：
+## 1.1 数学基础
 
 - [标准差和方差](<https://www.shuxuele.com/data/standard-deviation.html>)  [荐]★★★
 - [理解梯度下降](<http://liuchengxu.org/blog-cn/posts/dive-into-gradient-decent/>)  [荐]★★★
 - [one-hot 编码](<https://www.jianshu.com/p/a47a1c1fa3f1>)
 - [数据标准化/归一化normalization](<https://blog.csdn.net/pipisorry/article/details/52247379>)  [荐] 
 
-### 1. 深度学习
+## 1.2 深度学习
 
-#### 1.1. 基础入门
+### 1.2.1 基础入门
 
 科普文章：
 
@@ -77,11 +75,11 @@ AI Conference Deadlines：<https://aideadlin.es/?sub=ML,CV,NLP,RO,SP,DM>
 - MachineLP：[MachineLP博客目录](https://blog.csdn.net/u014365862/article/details/78422372)
 - hanbingtao：[《零基础入门深度学习》系列文章](https://www.zybuluo.com/hanbingtao/note/433855)
 
-#### 1.2 迁移学习
+### 1.2.2 迁移学习
 
 - [一文看懂迁移学习：怎样用预训练模型搞定深度神经网络？ - 知乎](<https://zhuanlan.zhihu.com/p/27657264>)  [荐] 
-- [pytorch-handbook/chapter4/4.1-fine-tuning.ipynb](<https://github.com/zergtant/pytorch-handbook/blob/a95c3a28564050640676818adbfd75eb104e95ea/chapter4/4.1-fine-tuning.ipynb>)  [荐]
-  
+- [pytorch-handbook/chapter4/04 1-fine-tuning.ipynb](<https://github.com/zergtant/pytorch-handbook/blob/a95c3a28564050640676818adbfd75eb104e95ea/chapter4/04 1-fine-tuning.ipynb>)  [荐]
+
   > 把别人现成的训练好了的模型拿过来，换成自己的数据，调整一下参数，再训练一遍，这就是微调（fine-tune）
   >
   > 。。。
@@ -107,13 +105,13 @@ AI Conference Deadlines：<https://aideadlin.es/?sub=ML,CV,NLP,RO,SP,DM>
 
 参考：[深度学习中的非线性激励函数以及unsupervised pre-training](<https://blog.csdn.net/elwangeij/article/details/51352964>)
 
-#### 1.3 强化学习/增强学习(Reinforce Learning)
+### 1.2.3 强化学习/增强学习(Reinforce Learning)
 
 强化学习（Reinforcement Learning）的输入数据作为对模型的反馈，强调如何基于环境而行动，以取得最大化的预期利益。与监督式学习之间的区别在于，它并不需要出现正确的输入/输出对，也不需要精确校正次优化的行为。强化学习更加专注于在线规划，需要在探索（在未知的领域）和遵从（现有知识）之间找到平衡。——from：<https://feisky.xyz/machine-learning/reinforcement.html>
 
 强化学习是一类算法, 是让计算机实现从一开始什么都不懂, 脑袋里没有一点想法, 通过不断地尝试, 从错误中学习, 最后找到规律, 学会了达到目的的方法. 这就是一个完整的强化学习过程. 实际中的强化学习例子有很多. 比如近期最有名的 Alpha go, 机器头一次在围棋场上战胜人类高手, 让计算机自己学着玩经典游戏 Atari, 这些都是让计算机在不断的尝试中更新自己的行为准则, 从而一步步学会如何下好围棋, 如何操控游戏得到高分。——from：[什么是强化学习 - 知乎](https://zhuanlan.zhihu.com/p/24807239)
 
-#### 1.4 生成式对抗网络(GAN)
+### 1.2.4 生成式对抗网络(GAN)
 
 GAN：一种概率生成模型。简单说， **概率生成模型的目的，就是找出给定观测数据内部的统计规律，并且能够基于所得到的概率分布模型，产生全新的，与观测数据类似的数据**。
 
@@ -121,9 +119,9 @@ GAN：一种概率生成模型。简单说， **概率生成模型的目的，�
 
 与庞大的真实数据相比，概率生成模型的参数个数要远远小于数据的数量。因此，在训练过程中，生成模型会被强迫去发现数据背后更为简单的统计规律，从而能够生成这些数据。——from：[深度学习新星：GAN的基本原理、应用和走向 | 硬创公开课 | 雷锋网](https://www.leiphone.com/news/201701/Kq6FvnjgbKK8Lh8N.html)
 
-#### 1.x 新的研究方向和技术热点
+### 1.2.5 新的研究方向和技术热点
 
-##### 自动机器学习（AutoML, Automated Machine Learning）
+#### (1) 自动机器学习（AutoML, Automated Machine Learning）
 
 AutoML 基本分以下几个方向：（——from：<https://zhuanlan.zhihu.com/p/75747814>）
 
@@ -133,14 +131,9 @@ AutoML 基本分以下几个方向：（——from：<https://zhuanlan.zhihu.com
 4. 元学习（meta learning）
 5. 神经网络架构搜索（NAS）
    NAS 看作 AutoML 的子域，并且与 HPO 和元学习有重叠。根据三个维度，可以对 NAS 的现有方法进行分类：搜索空间，搜索策略和性能评估策略。
-   
-   ``` 
    - 搜索空间（Search Space）: 搜索空间原则上定义了可以代表哪些体系结构。结合适用于任务属性的先验知识可以减小搜索空间大小并简化搜索。然而，这也引入了人为偏见，可能会阻止找到超越当前人类知识的新颖架构构建块（building blocks）。
-   
    - 搜索策略（Search strategy）：搜索策略说明了如何做空间搜索。它包含了经典的探索-开发（exploration-exploitation）之间的权衡。一方面，需要快速找到性能良好的架构，另一方面，避免过早收敛到次优架构（suboptimal architecture）区域。
-   
    - 性能评估策略（Performance estimation strategy）：NAS的目标通常是找到在未知数据实现高预测性能的架构。性能评估是指评估此性能的过程：最简单的选择是对数据架构执行标准训练和验证，但遗憾的是，这种方法计算成本很高，限制了可以探索的体系结构量。因此，最近的研究大多集中在开发出方法去降低这些性能估计成本。
-   ```
 
 相关阅读：
 
@@ -148,16 +141,14 @@ AutoML 基本分以下几个方向：（——from：<https://zhuanlan.zhihu.com
 - [谷歌Auto-DeepLab：自动搜索图像语义分割架构算法开源实现](<https://mp.weixin.qq.com/s/4WIHo5UHi1yUlnNR8PUozQ>)
 
 
-### 2. Python基础
+## 1.3 Python基础
 
-先学习掌握以下内容，包括 Python 基础、Anconada 安装等等：
-
-- [【笔记】IDE之PyCharm的设置和Debug入门](./1.python/IDE之PyCharm的设置和Debug入门.md)
-- [【笔记】Python基础入门笔记（一）](./1.python/python_basic/Python基础入门笔记（一）.md)
-- [【笔记】Python基础入门笔记（二）](./1.python/python_basic/Python基础入门笔记（二）.md)1.python\python_basic
-- [【笔记】Python内置库和函数使用及常见功能实现记录](./1.python/python_basic/Python内置库和函数使用及常见功能实现记录.md)
-- [【笔记】一键安装所有第三方库](./1.python/python_basic/Python一键安装所有第三方库.md)
-- 关于 Python 的博文：
+- [【笔记】IDE之PyCharm的设置和Debug入门](./01 python/IDE之PyCharm的设置和Debug入门.md)
+- [【笔记】Python基础入门笔记（一）](./01 python/python_basic/Python基础入门笔记（一）.md)
+- [【笔记】Python基础入门笔记（二）](./01 python/python_basic/Python基础入门笔记（二）.md)
+- [【笔记】Python内置库和函数使用及常见功能实现记录](./01 python/python_basic/Python内置库和函数使用及常见功能实现记录.md)
+- [【笔记】一键安装所有第三方库](./01 python/python_basic/Python一键安装所有第三方库.md)
+- 关于 Python 的文章：
   - [PEP 8 Python编码风格指南概要](<https://juejin.im/post/58b129b32f301e006c035a62>)
   - [Python程序执行顺序](<https://blog.csdn.net/kunpengtingting/article/details/80178618>) 
   - [pyhton中`__pycache__`文件夹的产生与作用](<https://blog.csdn.net/yitiaodashu/article/details/79023987>)
@@ -165,19 +156,19 @@ AutoML 基本分以下几个方向：（——from：<https://zhuanlan.zhihu.com
   - [上传自己编写的包到PYPI](https://zhaoxuhui.top/blog/2017/12/17/%E4%B8%8A%E4%BC%A0%E8%87%AA%E5%B7%B1%E7%BC%96%E5%86%99%E7%9A%84%E5%8C%85%E5%88%B0PYPI.html)
   - [Python中的注解“@” - 简书](<https://www.jianshu.com/p/7a644520418b>)
   - [Python--参数注解](<https://blog.csdn.net/weixin_41869526/article/details/80021061>)
-- [Anaconda的介绍、安装和环境管理](./1.python/Anaconda的介绍、安装和环境管理.md)
-  - [conda和pip常用命令速查.md](./1.python/conda和pip常用命令速查.md)
+- [Anaconda的介绍、安装和环境管理](./01 python/Anaconda的介绍、安装和环境管理.md)
+  - [conda和pip常用命令速查.md](./01 python/conda和pip常用命令速查.md)
 - [python包管理工具：Conda和pip比较](<https://china-testing.github.io/conda_pip_compare.html>)  |  [Ubuntu下python选择pip install还是conda install更加合适？ - 知乎](<https://www.zhihu.com/question/279152320>)
-- [Jupyter Notebook的介绍、安装及使用](./1.python/Jupyter的介绍、安装及使用.md)
+- [Jupyter Notebook的介绍、安装及使用](./01 python/Jupyter的介绍、安装及使用.md)
 
-### 3. 科学计数库
+## 1.4 科学计数库
 
-- [Python常用科学计算库快速入门(NumPy、SciPy、Pandas、Matplotlib、Scikit-learn)](./1.python/python_library/Python常用科学计算库快速入门(NumPy、SciPy、Pandas、Matplotlib、Scikit-learn).md)  | 更详细的学习见：
+- [Python常用科学计算库快速入门(NumPy、SciPy、Pandas、Matplotlib、Scikit-learn)](./01 python/python_library/Python常用科学计算库快速入门(NumPy、SciPy、Pandas、Matplotlib、Scikit-learn).md)  | 更详细的学习见：
   
-  - [【笔记】numpy学习笔记](./1.python/python_library/科学计算库之numpy的使用.md)
-  - [【笔记】pandas学习笔记](./1.python/python_library/科学计算库之pandas的使用.md)
-  - [【笔记】matplotlib学习笔记](./1.python/python_library/科学计算库之matplotlib的使用.md)
-  - [【笔记】scikit-learn学习笔记](./1.python/python_library/科学计算库之scikit-learn的使用.md)
+  - [【笔记】numpy学习笔记](./01 python/python_library/科学计算库之numpy的使用.md)
+  - [【笔记】pandas学习笔记](./01 python/python_library/科学计算库之pandas的使用.md)
+  - [【笔记】matplotlib学习笔记](./01 python/python_library/科学计算库之matplotlib的使用.md)
+  - [【笔记】scikit-learn学习笔记](./01 python/python_library/科学计算库之scikit-learn的使用.md)
 - scikit-learn 学习，网上资料：
   - [Sklearn Universal Machine Learning Tutorial Series | 莫烦Python](https://morvanzhou.github.io/tutorials/machine-learning/sklearn/)
   - [scikit-learn教程 -  scikit-learn 0.20.2文档](https://www.studyai.cn/tutorial/index.html)
@@ -186,20 +177,18 @@ AutoML 基本分以下几个方向：（——from：<https://zhuanlan.zhihu.com
     
     > 注：要是碰到混淆矩阵中，某个类别的预测都是 0，precision=tp/(tp+fp)，那除数为 0 呢，代码通不过啊，怎么办？通过和他人交流，有大佬说一般类似这么写：`xx / (xx+1e-10)` 加上 1e-10 。ok，mark 了。
 
-### 3. Python图像处理(库)<a name="image"></a>
+## 1.5 Python图像处理(库)<a name="image"></a>
 
-Python 图像处理库学习：
-
-- [Python图像处理笔记(含opencv-python/PIL/scikit-image/libtiff/gdal库等等).md](./1.python/\python_library_ImageProcessing/Python图像处理笔记.md) 
+- [Python图像处理笔记(含opencv-python/PIL/scikit-image/libtiff/gdal库等等).md](./01 python/\python_library_ImageProcessing/Python图像处理笔记.md) 
 - [python+tifffile之tiff文件读写](<https://blog.csdn.net/yuanlulu/article/details/83279768>)
-- 可能用到 matlab，同时学习下：[matlab的安装和学习.md](./Other/matlab学习.md)
+- [matlab的安装和学习.md](./Other/matlab学习.md)
 
-### 5. Python常用库
+## 1.6 Python常用库
 
 - [Scikit-plot 画图神器 – Python量化投资](<https://www.lizenghai.com/archives/17197.html>)
 - [python的Tqdm模块](<https://blog.csdn.net/langb2014/article/details/54798823>) - 可以在 Python 长循环中添加一个进度提示信息，用户只需要封装任意的迭代器。
 
-### 6. 其他知识点
+## 1.7 其他知识点
 
 机器学习中在线训练和离线训练？
 
@@ -214,29 +203,28 @@ Python 图像处理库学习：
 其他知识：
 
 - [远程连接工具小结](https://zhaoxuhui.top/blog/2018/04/14/RemoteConnection.html)
-- ……
 
 
 
-## 二、框架学习
+# 二、框架学习
 
-### 1. tensorflow学习
+### 2.1 tensorflow学习
 
-[【笔记】dl_framework\\tensorflow](./3\.dl_framework/tensorflow/readme.md)
+[【笔记】dl_framework\\tensorflow](./03 dl_framework/tensorflow/readme.md)
 
-[【笔记】深度学习硬件选购和tensorflow环境搭建](./3\.dl_framework/深度学习硬件选购及tensorflow各系统下的环境搭建.md)
+[【笔记】深度学习硬件选购和tensorflow环境搭建](./03 dl_framework/深度学习硬件选购及tensorflow各系统下的环境搭建.md)
 
-### 2. keras学习
+### 2.2 keras学习
 
-[【笔记】dl_framework\\keras](./3\.dl_framework/keras/readme.md)
+[【笔记】dl_framework\\keras](./03 dl_framework/keras/readme.md)
 
-### 3. pytorch学习
+### 2.3 pytorch学习
 
 
 
-### 4. 相关阅读
+### 2.4 相关阅读
 
-#### 损失函数(代价函数)
+### 损失函数(代价函数)
 
 1）损失函数(代价函数)
 
@@ -247,7 +235,7 @@ Python 图像处理库学习：
 - [tensorflow内置的四个损失函数](https://blog.csdn.net/limiyudianzi/article/details/80693695) [荐]  | [自定义损失函数](https://blog.csdn.net/limiyudianzi/article/details/80697711)  |  [二分类、多分类与多标签问题的区别,对应损失函数的选择,你知道吗？ - 掘金](<https://juejin.im/post/5b38971be51d4558b10aad26>)  [荐]
 - [损失函数loss大大总结](<https://blog.csdn.net/qq_14845119/article/details/80787753>)  |  [从loss处理图像分割中类别极度不均衡的状况---keras](<https://blog.csdn.net/m0_37477175/article/details/83004746#_1>)  |  [语义分割 各种loss实现 python](<https://blog.csdn.net/qq_21997625/article/details/87695961>)  |  [语义分割中常用的损失函数2（进阶篇）](<https://zhuanlan.zhihu.com/p/57008984>) 
 
-#### 梯度下降优化算法(优化器)
+### 梯度下降优化算法(优化器)
 
 1）优化器
 
@@ -256,10 +244,10 @@ Python 图像处理库学习：
 
 2）学习率/权重衰减/动量/滑动平均等
 
-- [个人笔记-优化器参数详解（learning rate、weight decay、momentum、滑动平均等）](./Other/tensorflow优化器参数详解.md)
-- [10个梯度下降优化算法+备忘单-图文外翻-AI研习社](<https://ai.yanxishe.com/page/TextTranslation/1603?from=timeline>) - 值得看看。  [荐]★★★
+- [个人笔记-优化器参数详解（learning rate、weight decay、momentum、滑动平均等）](./03 dl_framework/tensorflow/tensorflow优化器参数详解.md)
+- [10个梯度下降优化算法+备忘单-图文外翻-AI研习社](<https://ai.yanxishe.com/page/TextTranslation/1603?from=timeline>) - 值得看看。  [荐]
 
-#### 炼丹技巧
+### 炼丹技巧
 
 1）批归一化(Batch Normalization)：
 
@@ -272,10 +260,9 @@ Python 图像处理库学习：
 3）学习率(Learning Rate)
 
 - [探索学习率设置技巧以提高Keras中模型性能 | 炼丹技巧](https://mp.weixin.qq.com/s/VA8nKtZ4QZ7RgWTlqcWfgw) - GitHub 链接：https://github.com/gunchagarg/learning-rate-techniques-keras
+1. 差分学习（Differential learning)  2. 具有热启动的随机梯度下降（SGDR）
 
-  1. 差分学习（Differential learning)  2. 具有热启动的随机梯度下降（SGDR）
-
-#### 其他文章
+### 其他文章
 
 - [一文总览CNN网络架构演进：从LeNet到DenseNet](https://mp.weixin.qq.com/s/aJZ3T8EVaGDGfqxIs2av6A) - CNN网络架构演进。[荐]
 - [详解 TensorBoard－如何调参](https://blog.csdn.net/aliceyangxi1987/article/details/71716596) | [[干货|实践] TensorBoard可视化 - 知乎](https://zhuanlan.zhihu.com/p/33178205) - 学习使用 TensorBoard 可视化。
@@ -284,7 +271,7 @@ Python 图像处理库学习：
 - [关于Padding实现的一些细节 - 知乎](<https://zhuanlan.zhihu.com/p/73118626>) - pytorch 采用的是第一种，即在卷积或池化时先确定 padding 数量，自动推导输出形状；tensorflow 和 caffe 采用的是更为人熟知的第二种，即先根据 Valid 还是 Same 确定输出大小，再自动确定 padding 的数量。
 - ……
 
-### 5. 一些问题
+### 2.5. 一些问题
 
 **1、什么是基准测试？**
 
@@ -309,17 +296,15 @@ Python 图像处理库学习：
 
 
 
-## 三、计算机视觉
+# 三、计算机视觉
 
 计算机视觉牛人博客和代码汇总：[计算机视觉牛人博客和代码汇总（全） - findumars - 博客园](https://www.cnblogs.com/findumars/p/5009003.html)
 
-
-
-### 1. 数据预处理
+## 3.1 数据预处理
 
 1）网上博文
 
-★★★[CS231n课程笔记翻译：神经网络笔记 2](<https://zhuanlan.zhihu.com/p/21560667>)，内容如下：
+[CS231n课程笔记翻译：神经网络笔记 2](<https://zhuanlan.zhihu.com/p/21560667>)，内容如下：
 
 ``` xml
 - 设置数据和模型
@@ -370,9 +355,9 @@ img = np.expand_dims(img, axis=0)
 
 
 
-### 2. 图像的处理
+## 3.2 图像的处理
 
-见：<a href="#image">3. Python图像处理库</a>
+见：<a href="#image">Python图像处理库</a>
 
 图像处理：
 
@@ -389,21 +374,21 @@ img = np.expand_dims(img, axis=0)
 - [OpenCV探索之路 - 冠军的试炼](<https://www.cnblogs.com/skyfsm/category/1000207.html>)
 - 
 
-### 3. 存在的问题
+## 3.3 存在的问题
 
-#### 1）样本不均衡
+### 1）样本不均衡
 
-### 4. 注意力机制
+## 3.4 注意力机制
 
 - [【AI不惑境】计算机视觉中注意力机制原理及其模型发展和应用 - 有三AI](https://mp.weixin.qq.com/s/G4mFW8cn-ho3KGmbw5sSTw) - 1. 空间注意力模型(spatial attention)；2. 通道注意力机制；3. 空间和通道注意力机制的融合。还有，残差注意力机制，多尺度注意力机制，递归注意力机制等。
 
-### 5. 模型评价
+## 3.5 模型评价
 
 - [模型评价 - GitHub-WiKi](<https://github.com/HGladiator/MyCodes/wiki/%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BB%B7>)
 
 
 
-### 方向：图像分割(Image Segmentation)
+## 3.6 图像分割(Image Segmentation)
 
 学习：
 
@@ -418,13 +403,13 @@ img = np.expand_dims(img, axis=0)
 
   
 
-### 方向：目标检测(Object Detection)
+## 3.7 目标检测(Object Detection)
 
 
 
 
 
-### 方向：光学字符识别(OCR)
+## 3.8 光学字符识别(OCR)
 
 优质专栏：
 
@@ -432,41 +417,34 @@ img = np.expand_dims(img, axis=0)
 
 
 
-### 附：一些问题
+## 3.9 Q & A
 
 - [为什么图像分类任务要从256x256中裁剪出224x224](<https://mp.weixin.qq.com/s/3_fn2oBrjrbrybF10UpFfw>)
 
 
 
 
-### 代码搜索
+## 代码搜索
 
 - [Papers With Code](https://paperswithcode.com/sota)
 - [zziz/pwc: Papers with code.](https://github.com/zziz/pwc)
 
 
 
-## 论文
+# 论文
 
 如何找论文：[如何找论文 - 知乎](https://zhuanlan.zhihu.com/p/27484748)
 
 - [Google 学术搜索](https://scholar.google.com.hk/?hl=zh-CN)  |  [牛顿网 - 谷歌学术搜索镜像](<http://www.ndtsg.com/>)  |  [gfsoso 学术搜索](<https://c.glgoo.top/scholar/>)  |  [谷歌学术镜像](<http://ac.scmor.com/>)
-
 - [百度学术](http://xueshu.baidu.com/)
-
 - [Bing 学术](https://cn.bing.com/academic/?FORM=HDRSC4&setmkt=zh-CN)
-
 - [谷粉学术](https://gfsoso.99lb.net/)
-
 - [SemanticScholar](<https://www.semanticscholar.org/>) - 一个免费学术搜索引擎，其检索结果来自于期刊、学术会议资料或者是学术机构的文献。
-
 - [中国知网](http://www.cnki.net/) 
-
 - [arXiv](https://arxiv.org/)（或  [Arxiv Sanity](<http://www.arxiv-sanity.com/>)）
-
 - [Sci-hub.tw](https://sci-hub.tw/)  |  [sci-hub.shop](<https://www.sci-hub.shop/>)  
 
-  > 只要你有论文的 URL 或者 DOI（Digital Object Identifier）就可以粘贴到搜索框里，点击“Open”就会出现你想要的论文。*注：什么是 DOI，请看 [学术干货丨DOI是什么？怎样利用DOI快速检索文献？ – 材料牛](http://www.cailiaoniu.com/37930.html)*
+  > 只要你有论文的 URL 或者 DOI（Digital Object Identifier）就可以粘贴到搜索框里，点击“Open”就会出现你想要的论文。注：什么是 DOI，请看 [学术干货丨DOI是什么？怎样利用DOI快速检索文献？ – 材料牛](http://www.cailiaoniu.com/37930.html)
 
 如何进行论文研读？
 
@@ -482,14 +460,13 @@ img = np.expand_dims(img, axis=0)
 
 
 
-## 思考
+# 思考
 
 - [周志华：关于机器学习的一点思考](https://mp.weixin.qq.com/s/sEZM_o5D6AhyMgvocbsFhw) - 2018-09-23 
 - [你知道为什么说深度学习是这时代的炼金术吗？](https://mp.weixin.qq.com/s/y3KqZi68uoWnW_VHV-dtTg)
 - [深度 | 周志华：“深”为什么重要，以及还有什么深的网络](<https://mp.weixin.qq.com/s/T9MjdT2r9KSXZAxAEcm6mA>) - 2019-08-14
 - [贾扬清：我对人工智能方向的一点浅见](https://mp.weixin.qq.com/s/ULrrd68K74CyTxlHUC8rFA)
 - [腾讯 AI Lab &Robotics X 主任张正友博士：计算机视觉的三生三世 | CCF-GAIR 2019](<https://cloud.tencent.com/developer/article/1463219>)
-
 
 
 
