@@ -78,7 +78,7 @@ AI Conference Deadlines：<https://aideadlin.es/?sub=ML,CV,NLP,RO,SP,DM>
 ### 1.2.2 迁移学习
 
 - [一文看懂迁移学习：怎样用预训练模型搞定深度神经网络？ - 知乎](<https://zhuanlan.zhihu.com/p/27657264>)  [荐] 
-- [pytorch-handbook/chapter4/04 1-fine-tuning.ipynb](<https://github.com/zergtant/pytorch-handbook/blob/a95c3a28564050640676818adbfd75eb104e95ea/chapter4/04 1-fine-tuning.ipynb>)  [荐]
+- [pytorch-handbook/chapter4/04_1-fine-tuning.ipynb](<https://github.com/zergtant/pytorch-handbook/blob/a95c3a28564050640676818adbfd75eb104e95ea/chapter4/04_1-fine-tuning.ipynb>)  [荐]
 
   > 把别人现成的训练好了的模型拿过来，换成自己的数据，调整一下参数，再训练一遍，这就是微调（fine-tune）
   >
@@ -144,10 +144,10 @@ AutoML 基本分以下几个方向：（——from：<https://zhuanlan.zhihu.com
 ## 1.3 Python基础
 
 - [【笔记】IDE之PyCharm的设置和Debug入门](./01_python/IDE之PyCharm的设置和Debug入门.md)
-- [【笔记】Python基础入门笔记（一）](./01 python/python_basic/Python基础入门笔记（一）.md)
-- [【笔记】Python基础入门笔记（二）](./01 python/python_basic/Python基础入门笔记（二）.md)
-- [【笔记】Python内置库和函数使用及常见功能实现记录](./01 python/python_basic/Python内置库和函数使用及常见功能实现记录.md)
-- [【笔记】一键安装所有第三方库](./01 python/python_basic/Python一键安装所有第三方库.md)
+- [【笔记】Python基础入门笔记（一）](./01_python/python_basic/Python基础入门笔记（一）.md)
+- [【笔记】Python基础入门笔记（二）](./01_python/python_basic/Python基础入门笔记（二）.md)
+- [【笔记】Python内置库和函数使用及常见功能实现记录](./01_python/python_basic/Python内置库和函数使用及常见功能实现记录.md)
+- [【笔记】一键安装所有第三方库](./01_python/python_basic/Python一键安装所有第三方库.md)
 - 关于 Python 的文章：
   - [PEP 8 Python编码风格指南概要](<https://juejin.im/post/58b129b32f301e006c035a62>)
   - [Python程序执行顺序](<https://blog.csdn.net/kunpengtingting/article/details/80178618>) 
@@ -156,19 +156,19 @@ AutoML 基本分以下几个方向：（——from：<https://zhuanlan.zhihu.com
   - [上传自己编写的包到PYPI](https://zhaoxuhui.top/blog/2017/12/17/%E4%B8%8A%E4%BC%A0%E8%87%AA%E5%B7%B1%E7%BC%96%E5%86%99%E7%9A%84%E5%8C%85%E5%88%B0PYPI.html)
   - [Python中的注解“@” - 简书](<https://www.jianshu.com/p/7a644520418b>)
   - [Python--参数注解](<https://blog.csdn.net/weixin_41869526/article/details/80021061>)
-- [Anaconda的介绍、安装和环境管理](./01 python/Anaconda的介绍、安装和环境管理.md)
-  - [conda和pip常用命令速查.md](./01 python/conda和pip常用命令速查.md)
+- [Anaconda的介绍、安装和环境管理](./01_python/Anaconda的介绍、安装和环境管理.md)
+  - [conda和pip常用命令速查.md](./01_python/conda和pip常用命令速查.md)
 - [python包管理工具：Conda和pip比较](<https://china-testing.github.io/conda_pip_compare.html>)  |  [Ubuntu下python选择pip install还是conda install更加合适？ - 知乎](<https://www.zhihu.com/question/279152320>)
-- [Jupyter Notebook的介绍、安装及使用](./01 python/Jupyter的介绍、安装及使用.md)
+- [Jupyter Notebook的介绍、安装及使用](./01_python/Jupyter的介绍、安装及使用.md)
 
 ## 1.4 科学计数库
 
-- [Python常用科学计算库快速入门(NumPy、SciPy、Pandas、Matplotlib、Scikit-learn)](./01 python/python_library/Python常用科学计算库快速入门(NumPy、SciPy、Pandas、Matplotlib、Scikit-learn).md)  | 更详细的学习见：
+- [Python常用科学计算库快速入门(NumPy、SciPy、Pandas、Matplotlib、Scikit-learn)](./01_python/python_library/Python常用科学计算库快速入门(NumPy、SciPy、Pandas、Matplotlib、Scikit-learn).md)  | 更详细的学习见：
   
-  - [【笔记】numpy学习笔记](./01 python/python_library/科学计算库之numpy的使用.md)
-  - [【笔记】pandas学习笔记](./01 python/python_library/科学计算库之pandas的使用.md)
-  - [【笔记】matplotlib学习笔记](./01 python/python_library/科学计算库之matplotlib的使用.md)
-  - [【笔记】scikit-learn学习笔记](./01 python/python_library/科学计算库之scikit-learn的使用.md)
+  - [【笔记】numpy学习笔记](./01_python/python_library/科学计算库之numpy的使用.md)
+  - [【笔记】pandas学习笔记](./01_python/python_library/科学计算库之pandas的使用.md)
+  - [【笔记】matplotlib学习笔记](./01_python/python_library/科学计算库之matplotlib的使用.md)
+  - [【笔记】scikit-learn学习笔记](./01_python/python_library/科学计算库之scikit-learn的使用.md)
 - scikit-learn 学习，网上资料：
   - [Sklearn Universal Machine Learning Tutorial Series | 莫烦Python](https://morvanzhou.github.io/tutorials/machine-learning/sklearn/)
   - [scikit-learn教程 -  scikit-learn 0.20.2文档](https://www.studyai.cn/tutorial/index.html)
@@ -179,7 +179,7 @@ AutoML 基本分以下几个方向：（——from：<https://zhuanlan.zhihu.com
 
 ## 1.5 Python图像处理(库)<a name="image"></a>
 
-- [Python图像处理笔记(含opencv-python/PIL/scikit-image/libtiff/gdal库等等).md](./01 python/\python_library_ImageProcessing/Python图像处理笔记.md) 
+- [Python图像处理笔记(含opencv-python/PIL/scikit-image/libtiff/gdal库等等).md](./01_python/\python_library_ImageProcessing/Python图像处理笔记.md) 
 - [python+tifffile之tiff文件读写](<https://blog.csdn.net/yuanlulu/article/details/83279768>)
 - [matlab的安装和学习.md](./Other/matlab学习.md)
 
@@ -210,13 +210,13 @@ AutoML 基本分以下几个方向：（——from：<https://zhuanlan.zhihu.com
 
 ### 2.1 tensorflow学习
 
-[【笔记】dl_framework\\tensorflow](./03 dl_framework/tensorflow/readme.md)
+[【笔记】dl_framework\\tensorflow](./03_dl_framework/tensorflow/readme.md)
 
-[【笔记】深度学习硬件选购和tensorflow环境搭建](./03 dl_framework/深度学习硬件选购及tensorflow各系统下的环境搭建.md)
+[【笔记】深度学习硬件选购和tensorflow环境搭建](./03_dl_framework/深度学习硬件选购及tensorflow各系统下的环境搭建.md)
 
 ### 2.2 keras学习
 
-[【笔记】dl_framework\\keras](./03 dl_framework/keras/readme.md)
+[【笔记】dl_framework\\keras](./03_dl_framework/keras/readme.md)
 
 ### 2.3 pytorch学习
 
@@ -244,7 +244,7 @@ AutoML 基本分以下几个方向：（——from：<https://zhuanlan.zhihu.com
 
 2）学习率/权重衰减/动量/滑动平均等
 
-- [个人笔记-优化器参数详解（learning rate、weight decay、momentum、滑动平均等）](./03 dl_framework/tensorflow/tensorflow优化器参数详解.md)
+- [个人笔记-优化器参数详解（learning rate、weight decay、momentum、滑动平均等）](./03_dl_framework/tensorflow/tensorflow优化器参数详解.md)
 - [10个梯度下降优化算法+备忘单-图文外翻-AI研习社](<https://ai.yanxishe.com/page/TextTranslation/1603?from=timeline>) - 值得看看。  [荐]
 
 ### 炼丹技巧
