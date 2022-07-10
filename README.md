@@ -143,7 +143,7 @@ AutoML 基本分以下几个方向：（——from：<https://zhuanlan.zhihu.com
 
 ## 1.3 Python基础
 
-- [【笔记】IDE之PyCharm的设置和Debug入门](./01 python/IDE之PyCharm的设置和Debug入门.md)
+- [【笔记】IDE之PyCharm的设置和Debug入门](./01_python/IDE之PyCharm的设置和Debug入门.md)
 - [【笔记】Python基础入门笔记（一）](./01 python/python_basic/Python基础入门笔记（一）.md)
 - [【笔记】Python基础入门笔记（二）](./01 python/python_basic/Python基础入门笔记（二）.md)
 - [【笔记】Python内置库和函数使用及常见功能实现记录](./01 python/python_basic/Python内置库和函数使用及常见功能实现记录.md)
